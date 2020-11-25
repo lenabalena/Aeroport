@@ -2,14 +2,14 @@
 
 {% block body%}
 
-<h2>List of all products</h2>
+<h2>List of all courses</h2>
 <table class="table table-striped">
 <thead>
 <tr>
 <td>ID</td>
-<td>Name</td>
+<td>City</td>
 <td>Price</td>
-<td>Description</td>
+<td>Hour</td>
 <td><div class="d-flex justify-content-center">Options</div></td>
 </tr>
 </thead>
@@ -40,7 +40,7 @@
 </table>
 
 <form action="{{path('create_product')}}">
-    <button type="submit" class="btn btn-primary btn-lg btn-block">Create new product</button>
+    <button type="submit" class="btn btn-primary btn-lg btn-block">Add new course</button>
 </form>
 
 {% endblock %}

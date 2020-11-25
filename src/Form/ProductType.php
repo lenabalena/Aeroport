@@ -18,7 +18,7 @@ class ProductType extends AbstractType
         $builder
             ->add('name',TextType::class,[
                 'attr' =>[
-                        'placeholder'=> 'Enter the name here',
+                        'placeholder'=> 'Enter the city name here',
                         'class'=>'custom_class'
                 ]
             ])
